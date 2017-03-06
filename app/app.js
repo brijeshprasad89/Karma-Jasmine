@@ -4,7 +4,7 @@
   angular.module('meetIrl', [
     'ui.router',
     'api.users',
-    'components.users'
+    'components.users '
   ])
   .config(function($urlRouterProvider) {
     $urlRouterProvider.otherwise("/");
